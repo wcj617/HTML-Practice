@@ -27,7 +27,7 @@ for (var odd = 300; odd <= 333; odd++ ) {
 console.log("print all numbers divisible by 5 And 3 between 5 and 50");
 
 for (all = 5; all <= 50; all++) {
-    if (((all % 3) == 0 && (all % 5) == 0)) {
+    if (((all % 3) === 0 && (all % 5) === 0)) {
         console.log(all);
     }
 }
